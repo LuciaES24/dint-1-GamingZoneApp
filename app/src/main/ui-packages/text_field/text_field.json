@@ -1,0 +1,103 @@
+{
+  "name": "text_field",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "141:296",
+    "version": "5069631967",
+    "component-id": "715986db6d05dde242a0f20aaa6c12667418d60a"
+  },
+  "default": "TextField",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Escribe tu email ..."
+      }
+    ],
+    "modes": {
+      "TextField": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "11.0",
+            "is-structured": "false",
+            "children": [
+              "Escribe tu email ..."
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.6980392156862745"
+            }
+          },
+          {
+            "id": "Escribe tu email ...",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "7.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "155.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "color": {
+              "alpha": "0.6",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$texto",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "3.2",
+            "typeface": "Inika"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "texto": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "TextField",
+      "size": {
+        "width": 205.0,
+        "height": 25.0
+      },
+      "parameters": {
+        "texto": "Escribe tu email ..."
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
