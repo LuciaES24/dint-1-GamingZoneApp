@@ -1,0 +1,106 @@
+{
+  "name": "boton_configuraci_n",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "26:144",
+    "version": "4989237484",
+    "component-id": "5223aaccda5d171555d754e71963ef80fd3412cf"
+  },
+  "default": "BotonConfiguración",
+  "documentation": "BotonConfig",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 3"
+      },
+      {
+        "type": "text",
+        "id": "Tus juegos favoritos"
+      }
+    ],
+    "modes": {
+      "BotonConfiguración": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 3",
+              "Tus juegos favoritos"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 3",
+            "margin": {
+              "top": "4.5714263916015625",
+              "bottom": "0.0000019073486328125"
+            },
+            "border-radius": "11.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_3.svg"
+          },
+          {
+            "id": "Tus juegos favoritos",
+            "margin": {
+              "left": "13.0",
+              "right": "48.93486022949219",
+              "bottom": "13.714284896850586"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Tus juegos favoritos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "2.5714285278320315",
+            "typeface": "Inika"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "BotonConfiguración",
+      "size": {
+        "width": 265.0,
+        "height": 32.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

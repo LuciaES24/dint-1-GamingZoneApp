@@ -1,0 +1,169 @@
+{
+  "name": "disponible",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "19:2214",
+    "version": "5068253883",
+    "component-id": "04edc55a61c0200d43d4a9ea5f47fe65b589e0c2"
+  },
+  "default": "Disponible",
+  "documentation": "Cartel de disponible",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Disponible para:"
+      },
+      {
+        "type": "image",
+        "id": "Descarga Steam"
+      },
+      {
+        "type": "image",
+        "id": "ps4TheLastGuardian"
+      }
+    ],
+    "modes": {
+      "Disponible": {
+        "rules": [
+          {
+            "id": "top_level",
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Disponible para:",
+              "Descarga Steam",
+              "ps4TheLastGuardian"
+            ]
+          },
+          {
+            "id": "Disponible para:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "136.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Disponible para:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "18.0",
+            "line-height": "1.7777777099609375",
+            "typeface": "Inika",
+            "underline": "true"
+          },
+          {
+            "id": "Descarga Steam",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "13.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "50.0"
+              }
+            },
+            "tap-handler": "$descargaSteam",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "image-content": "descarga_steam.png",
+            "scale": "cover"
+          },
+          {
+            "id": "ps4TheLastGuardian",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "47.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "52.0"
+              }
+            },
+            "tap-handler": "$descargaPs4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "image-content": "ps4the_last_guardian.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "descargaSteam": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "descargaPs4": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Disponible",
+      "size": {
+        "width": 152.0,
+        "height": 96.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

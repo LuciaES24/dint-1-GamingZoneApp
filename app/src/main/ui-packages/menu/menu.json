@@ -1,0 +1,182 @@
+{
+  "name": "menu",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "23:49",
+    "version": "5068596126",
+    "component-id": "11efa7ec16999d0e6551e8550ebc516bb167cfe9"
+  },
+  "default": "Menu",
+  "documentation": "Menu",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 24"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 25"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 26"
+      }
+    ],
+    "modes": {
+      "Menu": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 24",
+              "Rectangle 25",
+              "Rectangle 26"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "288.0",
+              "saturation": "0.3614457831325301",
+              "value": "0.3254901960784314"
+            }
+          },
+          {
+            "id": "Rectangle 24",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-136.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$clickHome",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "image-content": "$imagenHome",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 25",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.5"
+              }
+            },
+            "tap-handler": "$clickJuego",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "image-content": "$imagenJuego",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 26",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "135.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.5"
+              }
+            },
+            "tap-handler": "$clickPerfil",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.0"
+              }
+            },
+            "image-content": "$imagenPerfil",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "imagenHome": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "clickHome": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "imagenJuego": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "clickJuego": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "imagenPerfil": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "clickPerfil": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Menu",
+      "size": {
+        "width": 360.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "imagenHome": "rectangle_24.png",
+        "imagenJuego": "rectangle_25.png",
+        "imagenPerfil": "rectangle_26.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

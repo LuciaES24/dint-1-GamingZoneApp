@@ -1,0 +1,92 @@
+{
+  "name": "cabecera_inicio",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "11:2032",
+    "version": "5068484368",
+    "component-id": "cbd861d2cc1028a72f9a0a97953151e648f44bc3"
+  },
+  "default": "CabeceraInicio",
+  "documentation": "Cabecera de las pantallas",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Inicio"
+      }
+    ],
+    "modes": {
+      "CabeceraInicio": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Inicio"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "288.0",
+              "saturation": "0.3614457831325301",
+              "value": "0.3254901960784314"
+            }
+          },
+          {
+            "id": "Inicio",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$texto",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "32.0",
+            "typeface": "Inika"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "texto": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "CabeceraInicio",
+      "size": {
+        "width": 360.0,
+        "height": 72.0
+      },
+      "parameters": {
+        "texto": "Inicio"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

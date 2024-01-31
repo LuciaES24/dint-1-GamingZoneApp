@@ -1,0 +1,617 @@
+{
+  "name": "carrusel",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "15:2132",
+    "version": "5068666018",
+    "component-id": "de8d9dee0285ad867d3ed2b26c4807b01b2c6f30"
+  },
+  "default": "carrusel",
+  "documentation": "Carrusel de imagenes",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Imagen1"
+      },
+      {
+        "type": "group",
+        "id": "Imagen2"
+      },
+      {
+        "type": "group",
+        "id": "Imagen3"
+      },
+      {
+        "type": "group",
+        "id": "Imagen4"
+      },
+      {
+        "type": "group",
+        "id": "Imagen5"
+      },
+      {
+        "type": "group",
+        "id": "Imagen6"
+      },
+      {
+        "type": "group",
+        "id": "Imagen7"
+      },
+      {
+        "type": "group",
+        "id": "Imagen8"
+      },
+      {
+        "type": "group",
+        "id": "Imagen9"
+      },
+      {
+        "type": "group",
+        "id": "Imagen10"
+      },
+      {
+        "type": "group",
+        "id": "Imagen11"
+      },
+      {
+        "type": "text",
+        "id": "Imagen1t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen2t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen3t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen4t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen5t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen16t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen7t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen8t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen9t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen10t"
+      },
+      {
+        "type": "text",
+        "id": "Imagen11t"
+      }
+    ],
+    "modes": {
+      "carrusel": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "right": "32.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen1",
+              "Imagen2",
+              "Imagen3",
+              "Imagen4",
+              "Imagen5",
+              "Imagen6",
+              "Imagen7",
+              "Imagen8",
+              "Imagen9",
+              "Imagen10",
+              "Imagen11"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen1",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen1t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen2",
+            "padding": {
+              "left": "9.0",
+              "top": "4.0",
+              "right": "9.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen2t"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen3",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen3t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen4",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen4t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen5",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen5t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen6",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen16t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen7",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen7t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen8",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen8t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen9",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen9t"
+            ],
+            "item-spacing": "10.0",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              },
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              }
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen10",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen10t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen11",
+            "padding": {
+              "left": "16.0",
+              "top": "4.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Imagen11t"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Imagen1t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen2t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chips dos",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen3t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip tres",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen4t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip cuatro",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen5t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip cinco",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen16t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip cinco",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen7t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip cinco",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen8t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip cinco",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen9t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip cinco",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen10t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip cinco",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          },
+          {
+            "id": "Imagen11t",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Chip cinco",
+            "overflow": "visible",
+            "text-size": "16.0",
+            "line-height": "1.5",
+            "typeface": "Source Sans Pro"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "carrusel",
+      "size": {
+        "width": 360.0,
+        "height": 112.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

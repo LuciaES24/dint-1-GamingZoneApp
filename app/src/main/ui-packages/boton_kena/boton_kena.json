@@ -1,0 +1,142 @@
+{
+  "name": "boton_kena",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "5:271",
+    "version": "4989197210",
+    "component-id": "eb2667b56303f465c976887cf7de493b39797c0c"
+  },
+  "default": "BotonKena",
+  "documentation": "BotonJuego",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "text",
+        "id": "Kena: Bridge of Spirits"
+      }
+    ],
+    "modes": {
+      "BotonKena": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1",
+              "Kena: Bridge of Spirits"
+            ]
+          },
+          {
+            "id": "Rectangle 1",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "4.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "137.0"
+              }
+            },
+            "image-content": "rectangle_1.jpeg",
+            "scale": "cover",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              },
+              {
+                "color": {
+                  "alpha": "0.2",
+                  "hue": "0.0",
+                  "saturation": "0.0",
+                  "value": "0.0"
+                },
+                "opacity": "1.0",
+                "fill-type": "solid",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              }
+            ]
+          },
+          {
+            "id": "Kena: Bridge of Spirits",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "21.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "55.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "318.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Kena: Bridge of  Spirits",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "28.0",
+            "line-height": "1.1428571319580079",
+            "typeface": "Inika"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "BotonKena",
+      "size": {
+        "width": 360.0,
+        "height": 129.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,124 @@
+{
+  "name": "google",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "28:2330",
+    "version": "4989206620",
+    "component-id": "7fb230bc8405efb16bb1381697df17f0b7221b01"
+  },
+  "default": "Google",
+  "documentation": "BotonGoogle",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 6"
+      },
+      {
+        "type": "text",
+        "id": "Continuar con Google"
+      }
+    ],
+    "modes": {
+      "Google": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "11.0",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 6",
+              "Continuar con Google"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Rectangle 6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              }
+            },
+            "image-content": "rectangle_6.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Continuar con Google",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "32.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Continuar con Google",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "2.6666665649414063",
+            "typeface": "Inika"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Google",
+      "size": {
+        "width": 205.0,
+        "height": 25.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

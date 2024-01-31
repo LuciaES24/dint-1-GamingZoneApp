@@ -1,0 +1,165 @@
+{
+  "name": "noticia",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNpiclIluMJEychDfrbs8j",
+    "node": "28:2420",
+    "version": "5069164264",
+    "component-id": "3526e5f3cf676f90e599d7bf8f8a9ded32a20c5d"
+  },
+  "default": "Noticia",
+  "documentation": "Noticia",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Noticia1"
+      },
+      {
+        "type": "group",
+        "id": "Noticia1Titulo"
+      },
+      {
+        "type": "text",
+        "id": "Juegos 2023"
+      }
+    ],
+    "modes": {
+      "Noticia": {
+        "rules": [
+          {
+            "id": "top_level",
+            "tap-handler": "$clickNoticia",
+            "is-structured": "false",
+            "children": [
+              "Noticia1",
+              "Noticia1Titulo"
+            ]
+          },
+          {
+            "id": "Noticia1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "$imagenNoticia",
+            "scale": "cover"
+          },
+          {
+            "id": "Noticia1Titulo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-2.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "34.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Juegos 2023"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "288.0",
+              "saturation": "0.3614457831325301",
+              "value": "0.3254901960784314"
+            }
+          },
+          {
+            "id": "Juegos 2023",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "104.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$tituloNoticia",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "18.0",
+            "line-height": "1.7777777099609375",
+            "typeface": "Inika"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "clickNoticia": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "imagenNoticia": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "tituloNoticia": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Noticia",
+      "size": {
+        "width": 180.0,
+        "height": 122.0
+      },
+      "parameters": {
+        "imagenNoticia": "noticia1.jpeg",
+        "tituloNoticia": "Juegos 2023"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
