@@ -110,6 +110,7 @@ drawable imagen7
 drawable imagen8
 drawable imagen9
 drawable kenapng
+drawable logo
 drawable menu_rectangle_24
 drawable menu_rectangle_25
 drawable menu_rectangle_26

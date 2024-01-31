@@ -12,6 +12,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.lespsan543.dint_1_gamingzoneapp.model.Routes
 import com.lespsan543.dint_1_gamingzoneapp.screens.PantallaHorizon
+import com.lespsan543.dint_1_gamingzoneapp.screens.PantallaIncio
 import com.lespsan543.dint_1_gamingzoneapp.screens.PantallaKena
 import com.lespsan543.dint_1_gamingzoneapp.screens.PantallaMenu
 import com.lespsan543.dint_1_gamingzoneapp.screens.PantallaMenuJuegos
@@ -31,7 +32,10 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     val navController = rememberNavController()
-                    NavHost(navController = navController, startDestination = Routes.PantallaMenu.route) {
+                    NavHost(navController = navController, startDestination = Routes.PantallaInicio.route) {
+                        composable(Routes.PantallaInicio.route) {
+                            PantallaIncio(navController)
+                        }
                         composable(Routes.PantallaKena.route) {
                             PantallaKena(navController)
                         }

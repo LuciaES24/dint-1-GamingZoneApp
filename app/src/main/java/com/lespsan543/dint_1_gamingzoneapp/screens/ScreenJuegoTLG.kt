@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
@@ -45,8 +46,7 @@ fun PantallaTLG(navController: NavHostController) {
         }
     ){
         Column(modifier = Modifier.background(Color(171,170,155)) .fillMaxSize()) {
-            Text(text = "The Last Guardian es una historia de amistad y aventura entre el chico, el cual controlaremos, y Trico, una criatura con mezclas de ave y felino, muy temido por los humanos. Estos desarrollarán una gran amistad gracias al trabajo en equipo que deberán hacer para salir de todos los \n" +
-                    "escenarios que se nos \n" +
+            Text(text = "The Last Guardian es una historia de amistad y aventura entre el chico, el cual controlaremos, y Trico, una criatura con mezclas de ave y felino, muy temido por los humanos. Estos desarrollarán una gran amistad gracias al trabajo en equipo que deberán hacer para salir de todos los\n lugares que se nos \n" +
                     "presentan a lo largo de\n" +
                     "la historia.",
                 fontFamily = inika,
@@ -66,7 +66,8 @@ fun PantallaTLG(navController: NavHostController) {
             alignment = Alignment.BottomEnd,
             modifier = Modifier
                 .align(Alignment.BottomEnd)
-                .padding(top = 600.dp, start = 240.dp)
+                .padding(top = 500.dp, start = 240.dp)
+                .size(400.dp)
         )
     }
 }

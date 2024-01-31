@@ -43,8 +43,7 @@ fun PantallaHorizon(navController: NavHostController) {
         }
     ){
         Column(modifier = Modifier.background(Color(79,161,174)) .fillMaxSize()) {
-            Text(text = "Horizon: Zero Down se ambienta en un mundo postapocalíptico plagado de máquinas peligrosas, donde Aloy, nuestra protagonista, es desterrada al nacer y es cuidada por Rost. A medida que va creciendo, su interés por conocer a su madre y por saber más sobre el mundo antiguo, \n" +
-                    "la llevarán a\n" +
+            Text(text = "Horizon: Zero Down se ambienta en un mundo postapocalíptico plagado de máquinas peligrosas, donde Aloy, nuestra protagonista, es desterrada al nacer y es cuidada por Rost. A medida que va creciendo, su interés por conocer a su madre y por saber más sobre el mundo antiguo, la\nllevarán a\n" +
                     "numerosas \n" +
                     "aventuras.",
                 fontFamily = inika,
@@ -64,8 +63,8 @@ fun PantallaHorizon(navController: NavHostController) {
             alignment = Alignment.BottomEnd,
             modifier = Modifier
                 .align(Alignment.BottomEnd)
-                .padding(top = 560.dp, start = 220.dp)
-                .size(300.dp)
+                .padding(top = 460.dp, start = 180.dp)
+                .size(400.dp)
         )
     }
 }

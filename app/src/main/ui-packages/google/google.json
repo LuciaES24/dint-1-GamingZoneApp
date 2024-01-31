@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "eNpiclIluMJEychDfrbs8j",
     "node": "28:2330",
-    "version": "4989206620",
+    "version": "5069739899",
     "component-id": "7fb230bc8405efb16bb1381697df17f0b7221b01"
   },
   "default": "Google",
@@ -32,6 +32,7 @@
           {
             "id": "top_level",
             "border-radius": "11.0",
+            "tap-handler": "$click",
             "is-structured": "false",
             "children": [
               "Rectangle 6",
@@ -107,6 +108,13 @@
           }
         ]
       }
+    }
+  },
+  "parameters": {
+    "click": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
     }
   },
   "previews": [

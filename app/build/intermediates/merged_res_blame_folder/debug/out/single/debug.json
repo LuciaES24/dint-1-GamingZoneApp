@@ -1,11 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\ic_launcher_background.xml"
+    },
+    {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_games2.png.flat",
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\games2.png"
     },
     {
-        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.lespsan543.dint_1_gamingzoneapp-merged_res-51:/drawable_kenapng.png.flat",
+        "source": "com.lespsan543.dint_1_gamingzoneapp-main-53:/drawable/kenapng.png"
     },
     {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable-dam_home2.png.flat",
@@ -20,12 +24,12 @@
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable-nodpi_boton_juego_rectangle_1.png.flat",
-        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-relay-47:\\drawable-nodpi\\boton_juego_rectangle_1.png"
-    },
-    {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_imagen6.png.flat",
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\imagen6.png"
+    },
+    {
+        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable-nodpi_boton_juego_rectangle_1.png.flat",
+        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-relay-47:\\drawable-nodpi\\boton_juego_rectangle_1.png"
     },
     {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable-nodpi_cabecera_icon.xml.flat",
@@ -60,12 +64,20 @@
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable-dam\\botonstray.png"
     },
     {
+        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable-dam_logo.png.flat",
+        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable-dam\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable-nodpi_menu_rectangle_26.png.flat",
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-relay-47:\\drawable-nodpi\\menu_rectangle_26.png"
+    },
+    {
+        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_kenapng.png.flat",
+        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\kenapng.png"
     },
     {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable-dam_horizonpng.webp.flat",
@@ -164,6 +176,10 @@
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\imagen3.png"
     },
     {
+        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_rot.png.flat",
+        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\rot.png"
+    },
+    {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_stray.png.flat",
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\stray.png"
     },
@@ -212,10 +228,6 @@
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.lespsan543.dint_1_gamingzoneapp-merged_res-51:/drawable_rot.png.flat",
-        "source": "com.lespsan543.dint_1_gamingzoneapp-main-53:/drawable/rot.png"
-    },
-    {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_imagen1.png.flat",
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\imagen1.png"
     },
@@ -236,6 +248,10 @@
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\imagen10.png"
     },
     {
+        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_trico.png.flat",
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable\\trico.png"
     },
@@ -254,6 +270,10 @@
     {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable-dam_kenapng.PNG.flat",
+        "source": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-main-53:\\drawable-dam\\kenapng.PNG"
     },
     {
         "merged": "C:\\Users\\lucia\\.gradle\\daemon\\8.0\\com.lespsan543.dint_1_gamingzoneapp-merged_res-51:\\drawable_imagen5.png.flat",

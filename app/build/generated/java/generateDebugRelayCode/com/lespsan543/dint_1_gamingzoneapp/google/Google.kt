@@ -21,6 +21,7 @@ import com.google.relay.compose.RelayContainer
 import com.google.relay.compose.RelayContainerScope
 import com.google.relay.compose.RelayImage
 import com.google.relay.compose.RelayText
+import com.google.relay.compose.tappable
 import com.lespsan543.dint_1_gamingzoneapp.R
 
 /**
@@ -30,8 +31,14 @@ import com.lespsan543.dint_1_gamingzoneapp.R
  * Generated code; do not edit directly
  */
 @Composable
-fun Google(modifier: Modifier = Modifier) {
-    TopLevel(modifier = modifier) {
+fun Google(
+    modifier: Modifier = Modifier,
+    click: () -> Unit = {}
+) {
+    TopLevel(
+        click = click,
+        modifier = modifier
+    ) {
         Rectangle6(
             modifier = Modifier.boxAlign(
                 alignment = Alignment.TopStart,
@@ -58,7 +65,10 @@ fun Google(modifier: Modifier = Modifier) {
 private fun GooglePreview() {
     MaterialTheme {
         RelayContainer {
-            Google(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
+            Google(
+                click = {},
+                modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
+            )
         }
     }
 }
@@ -93,6 +103,7 @@ fun ContinuarConGoogle(modifier: Modifier = Modifier) {
 
 @Composable
 fun TopLevel(
+    click: () -> Unit,
     modifier: Modifier = Modifier,
     content: @Composable RelayContainerScope.() -> Unit
 ) {
@@ -106,6 +117,6 @@ fun TopLevel(
         isStructured = false,
         radius = 11.0,
         content = content,
-        modifier = modifier.fillMaxWidth(1.0f).fillMaxHeight(1.0f)
+        modifier = modifier.tappable(onTap = click).fillMaxWidth(1.0f).fillMaxHeight(1.0f)
     )
 }
